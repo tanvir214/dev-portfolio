@@ -176,6 +176,7 @@ body {
 .contact {
     display: flex;
     margin: 25px 5%;
+    padding-bottom: 30px;
 }
 
 .touch {
@@ -233,4 +234,33 @@ hr {
     margin: 2px 0;
     color: #1F8A70;
     margin: 10px 30px 0 0;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+footer h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffff;
+    margin: 2px 0;
+}
+
+footer h1 span{
+    color: #1F8A70;
+}
+
+footer p{
+    font-family: 'Lobster Two', cursive;
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 0 30px 0;
 }

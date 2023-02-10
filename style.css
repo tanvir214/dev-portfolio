@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-text {
+    width: 45%;
+    padding: 100px 5%;
+}
+
+.hero-text h1 {
+    font-family: 'Yeseva One', cursive;;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(#1F8A70, #759FAC);
+    border-image-slice: 8;
+    line-height: 55px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.hero-text h1 span {
+    color: #1F8A70;
+}
+
+.hero-p{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffff;
+    padding: 12px 35px;
+    background: linear-gradient(#1F8A70, #759FAC);
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.hero-pic {
+    width: 40%;
+    text-align: center;
+    padding: 40px 5%;
+}
+
+.hero-pic img {
+    width: 450px;
+    height: 500px;
+}
+
+
+.mission {
+    padding: 0 5%;
+    margin: 30px 0;
+}
+
+.mission h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.mission h2 span {
+    color: #1F8A70;
+}
+
+.mission-flex {
+    display: flex;
+}
+
+.card{
+    width: 33%;
+    padding: 15px 35px;
+    margin: 25px 10px;
+}
+
+#card1 {
+    background-color: #1F8A70;
+    border-radius: 20px;  
+}
+
+#card2 {
+    background-color: #539794c4;
+    border-radius: 20px;  
+}
+
+#card3 {
+    background-color: #E6DDC4;
+    border-radius: 20px;  
+}
+
+
+
+.card img {
+    width: 40%;
+}
+
+.card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 2px 0;
+}
+
+.card-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 7px 0;
+    text-transform: capitalize;
+}

@@ -172,3 +172,65 @@ body {
     background-position: bottom 0px right 0px;
     padding-bottom: 40px;
 }
+
+.contact {
+    display: flex;
+    margin: 25px 5%;
+}
+
+.touch {
+    width: 50%;
+}
+
+.touch h2 {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F8A70;
+    margin: 2px 0;
+    text-transform: capitalize;
+}
+
+.pt {
+    margin: 0;
+    padding: 3px 10px;
+}
+
+.btn-touch {
+    border-radius: 30px;
+}
+
+.icons {
+    width: 50%;
+    margin-top: 55px;
+    padding-left: 50px;
+}
+
+.icons h3 {
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    font-size: 24px;
+    margin: 2px 0;
+    font-weight: 200;
+    color: #1F8A70;
+    font-style: italic;
+}
+
+hr {
+    width: 30%;
+    padding: 1px 0;
+    text-align: left;
+    display: inline-block;
+    background-color: #1F8A70;
+}
+
+.ic {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 2px 0;
+    color: #1F8A70;
+    margin: 10px 30px 0 0;
+}
